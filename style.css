@@ -1,8 +1,8 @@
-html {
-    display: flex;
-    justify-content: center;
+html:not(form) {
+  display: flex;
+  justify-content: center;
+  background-color: #be0f34;
 }
-
 fieldset {
-    max-width: 50%;
+  max-width: 50%;
 }
